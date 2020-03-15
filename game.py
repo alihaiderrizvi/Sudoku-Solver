@@ -49,7 +49,7 @@ def generate_board():
         [0,0,0,0,0,0,0,0,0]
     ]
     count = 0
-    filled_boxes = 12 # the number of boxes to filled in the start
+    filled_boxes = 12 # the number of boxes to be filled in the start
     while count < filled_boxes:
         row_index = random.randrange(0,9)
         col_index = random.randrange(0,9)
@@ -193,7 +193,7 @@ def show_sol():
 
 
 board = generate_board() # creating the board
-solution = [] # this list contains all the steps followed by the algorithm.
+solution = [] # this list contains all the steps followed by the algorithm. It stores all the states of the board.
 solution.append(copy.deepcopy(board))
 solve_board(board) # solving the board
 
