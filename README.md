@@ -1,9 +1,11 @@
 # Sudoku Solver
 
-Description:
-- A python program that randomly generates a solvable sudoku board and also solves it using the backtracking algorithm.
-- Also shows the steps followed by the algorithm through the GUI. This helps in visualizing how the algorithm works.
+## Description:
+- A python program that randomly generates a solvable Sudoku board and also solves it using the backtracking algorithm.
+- The program also shows the steps followed by the algorithm through a GUI. This helps in visualizing how the algorithm works.
 
-Library Requirements:
-- Tkinter.
--- How to install tkinter for python: https://stackoverflow.com/questions/20044559/how-to-pip-or-easy-install-tkinter-on-windows
+## How to Run:
+- Head to the directory where the program is saved in the terminal.
+- Enter `pip install -r requirements.txt`
+- Wait for the dependencies to install.
+- Now enter `python Sudoku_Solver.py`
