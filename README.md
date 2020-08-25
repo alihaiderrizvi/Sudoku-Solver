@@ -9,3 +9,7 @@
 - Enter `pip install -r requirements.txt`
 - Wait for the dependencies to install.
 - Now enter `python Sudoku_Solver.py`
+
+## Demo:
+
+![](demo_gif.gif)
